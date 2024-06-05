@@ -1,0 +1,75 @@
+.add-item-container {
+  background: white;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+.add-item-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.add-item-form {
+  margin: 0;
+}
+
+.add-item-form label {
+  display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.add-item-form input,
+.add-item-form select {
+  width: 100%;
+  padding: 10px; /* Increased padding for input fields */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-item-form button {
+  background-color: #4c7faf;
+  color: white;
+  padding: 20px 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.add-item-form button:hover {
+  background-color: #275ba8;
+}
+
+.success-message {
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #DFF2BF;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #FFBABA;
+}
+
+.image-container {
+  margin-top: 20px; /* Add spacing between form and image */
+}

@@ -1,0 +1,63 @@
+.edit-item-container {
+  background: white;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 0 auto;
+  }
+  
+  .edit-item-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .edit-item-container form div {
+    margin-bottom: 10px;
+  }
+  
+  .edit-item-container form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .edit-item-container form input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .edit-item-container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4c7faf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-item-container form button:hover {
+    background-color: #275ba8;
+  }
+  
+  .edit-item-container .success-message,
+  .edit-item-container .error-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .edit-item-container .success-message {
+    color: green;
+    background-color: #DFF2BF;
+  }
+  
+  .edit-item-container .error-message {
+    color: red;
+    background-color: #FFEBE5;
+  }
+  

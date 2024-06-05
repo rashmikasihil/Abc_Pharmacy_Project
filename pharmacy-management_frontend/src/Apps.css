@@ -1,0 +1,59 @@
+/* App.css */
+.navbar {
+    padding: 20px; /* Adjust padding to increase height */
+    background: #83dce7; /* Change this to your desired color */
+    margin-bottom: 20px;
+    height: 50px; /* Set a specific height for the navbar */
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Center items vertically within the navbar */
+    height: 100%; /* Ensure ul takes full height of the navbar */
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 30px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Change text color to white for better contrast */
+  }
+  
+  .navbar a:hover {
+    color: lightgray; /* Change the hover color if desired */
+  }
+
+  
+  .navbar-logo img {
+    width: 100px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add spacing between logo and links */
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-right: 20px; /* Add spacing between nav items */
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  

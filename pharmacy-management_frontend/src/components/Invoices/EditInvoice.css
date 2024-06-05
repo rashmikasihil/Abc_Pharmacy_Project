@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-guide-form {
+    margin: 0;
+  }
+  
+  .add-guide-form label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .add-guide-form input,
+  .add-guide-form select {
+    width: 100%;
+    padding: 10px; /* Increased padding for input fields */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-guide-form button {
+    background-color: #4c7faf;
+    color: white;
+    padding: 20px 40px; /* Increased padding for the button */
+    font-size: 16px; /* Increased font size for the button */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%; /* Make the button full width */
+    margin-top: 20px; /* Add some margin to the top of the button */
+  }
+  
+  .add-guide-form button:hover {
+    background-color: #275ba8;
+  }
+  
+  .success-messagee {
+    color: #4CAF50;
+    background-color: #DFF2BF;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  
+  
+  .add-guide-container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  }
+  
